@@ -67,6 +67,7 @@ a {
 
 /*=============== REUSABLE CSS CLASSES ===============*/
 .container {
+  width: 95%;
   max-width: 1300px;
   margin-inline: 1.5rem;
 }
@@ -741,6 +742,7 @@ button {
 
   .learn-more {
     display: flex;
+    align-items: center;
     margin: 0;
     padding: 0;
 }
@@ -754,10 +756,9 @@ button {
   margin: auto 0;
 }
 
-.learn-more .right-chevron {
-  height: 12px;
-  margin-left: 8px;
-  padding: 2px 8px;
+.learn-more i {
+  font-size: 1.5rem;
+  color: var(--first-color);
 }
 
 .marketing-icon {
